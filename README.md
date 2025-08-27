@@ -24,12 +24,13 @@ In deze github-respository vind je de installatiescripts voor 1 image:
 # Maak de image op basis van de Dockerfile
 docker build -t just_php .       
 # Maak gebruik van de built-in webserver van PHP
-docker run --rm -it -p 8000:8000 -v ./html:/html just_php php -S 0.0.0.0:8000
+docker run --rm -p 8000:8000 -v ./html:/var/www/html -d php-image php -S 0.0.0.0:8000
 # Ga naar http://127.0.0.1 om te controleren of de built-in webserver draait.
 # Of
 # Maak gebruik van php-cli om php-bestanden vanaf de commandline te starten
 docker run -it --rm --name just_php_app just_php bash
 # Als bash is opgestart kun je vervolgens verder met
+cd html
 php cli.php # test om te zien of je php bestanden in interactieve modus kunt gebruiken.
 ```
 
