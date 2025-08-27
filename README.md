@@ -1,4 +1,4 @@
-# Docker setup webapplication
+# Docker setup just php development
 ## Installatie Docker voor Windows:
 Docker maakt gebruik van Linux. In Windows 11 kun je gebruik maken van [Windows Subsysteem voor Linux](https://learn.microsoft.com/nl-nl/windows/wsl/about). Hiermee kun je naast windows ook gebruik maken van Linux. Docker kan samenwerken met WSL. Om Docker te installeren moet je dus eerst WSL(2) installeren. (dit maakt overigens als onderdeel uit van de installatie van Docker Desktop)
 
