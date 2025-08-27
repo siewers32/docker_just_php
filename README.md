@@ -10,8 +10,7 @@ Het macintosh besturingssysteem is gebaseerd op Unix (FreeBSD). Docker kan hiero
 
 ## Gebruik maken van Docker images en het draaien van containers.
 In deze github-respository vind je de installatiescripts voor 1 image:
-* Drie images worden gedownload
-    * PHP 8.x-cli
+* PHP 8.x-cli
 
 #### Dockerfile
 * Om de container te bouwen en te configureren wordt het bestand Dockerfile gebruikt
